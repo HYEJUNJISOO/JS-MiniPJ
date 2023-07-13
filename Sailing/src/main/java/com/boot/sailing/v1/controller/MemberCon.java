@@ -11,4 +11,5 @@ public class MemberCon {
 
         return "/v1/member/member";
     }
+
 }

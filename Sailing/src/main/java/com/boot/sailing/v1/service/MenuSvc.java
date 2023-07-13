@@ -18,6 +18,7 @@ public class MenuSvc {
     MenuDao menuDao;
 
     public MenuSvc() {
+
         log.info("================ MenuSvc , 생성자 ===================");
     }
 
@@ -70,4 +71,9 @@ public class MenuSvc {
         return list;
     }
 
+
+    public int doInsert(String strCoffee, String strKind, String strPrice) {
+        int i=menuDao.doInsert(strCoffee,strKind,strPrice);
+        return i;
+    }
 }

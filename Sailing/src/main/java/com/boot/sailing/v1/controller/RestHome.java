@@ -11,7 +11,7 @@ public class RestHome {
 
         String strHtml="<html><body> Hi Rest <hr> Hi. </body></html>";
 
-        strHtml="<html>\n" +
+         strHtml="<html>\n" +
                 "<head>\n" +
                 " <meta charset=\"UTF-8\">\n" +
                 " <title>회사 직원 리스트</title>\n" +

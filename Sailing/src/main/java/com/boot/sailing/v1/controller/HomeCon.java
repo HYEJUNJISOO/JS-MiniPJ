@@ -14,16 +14,16 @@ public class HomeCon {
     public String doHome(){
 
         return "/v1/home/home";
-
     }
 
     @GetMapping("/rest2")
     @ResponseBody
-    public String doRest2() {
+    public String doRest2(){
 
-        String strHtml="<html><body> Hi Rest, Controller+ResponseBody!!! <hr> Hi. </body></html>";
+        String strHtml="<html><body> Hi Rest , Controller + ResponseBody !!! <hr> Hi. </body></html>";
 
         return strHtml;
 
     }
+
 }
