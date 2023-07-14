@@ -10,4 +10,14 @@ public interface MenuDao {
     List<Map<String, Object>> doList();
 
     int doInsert(String strCoffee, String strKind, String strPrice);
+
+    int doDelete(String strNo);
+
+    //One row 조회
+    Map<String, Object> doListOne(String strNo);
+
+    //Update
+    int doUpdate(String strNo, String strCoffee, String strKind, String strPrice);
+
+    List<Map<String, Object>> doSearch(String strStartDate, String strEndDate, String strCoffee, String strKind);
 }
